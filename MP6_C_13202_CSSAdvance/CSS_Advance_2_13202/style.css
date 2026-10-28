@@ -1,0 +1,115 @@
+body {
+    background-color: #93c8fd;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#wrapper {
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #292727;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #292727;
+}
+
+h1 {
+    text-align: center;
+    color: #93c8fd;
+    margin-bottom: 5px;
+}
+
+p.intro {
+    text-align: center;
+    color: #93c8fd;
+    margin-bottom: 25px;
+}
+
+.form-section {
+    background-color: #ffffff;
+    border: 2px solid #74b9ff;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Judul bagian tanpa garis bawah */
+h2 {
+    font-size: 15px;
+    color: #2980b9;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    clear: both;
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    float: left;
+    width: 180px;
+    text-align: right;
+    margin-right: 15px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 4px;
+}
+
+.form-group label.inline {
+    float: none;
+    width: auto;
+    text-align: left;
+    margin-right: 15px;
+    font-weight: normal;
+    padding-top: 0;
+}
+
+.inline-options, .checkbox-group {
+    margin-left: 195px;
+    padding-top: 4px;
+}
+
+.checkbox-group p {
+    margin: 0 0 5px 0;
+}
+
+input, select, textarea {
+    font-family: inherit;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="file"] {
+    border: none;
+    padding-left: 0;
+    color: #333333;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.submit-row {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.submit-row input[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.submit-row input[type="submit"]:hover {
+    background-color: #1f618d;
+}

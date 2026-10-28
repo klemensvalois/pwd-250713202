@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Lomba</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Formulir Registrasi Kompetisi Mahasiswa</h1>
+        <p class="intro">Silakan lengkapi formulir di bawah ini untuk mendaftarkan tim Anda.</p>
+        
+        <form action="" method="post" enctype="multipart/form-data">
+            
+            <fieldset class="form-section">
+                <h2>Informasi Tim</h2>
+                <div class="form-group">
+                    <label for="tim">Nama Tim Peserta</label>
+                    <input type="text" id="tim" name="tim" size="30" />
+                </div>
+                <div class="form-group">
+                    <label for="ketua">Nama Ketua Tim</label>
+                    <input type="text" id="ketua" name="ketua" size="30" />
+                </div>
+                <div class="form-group">
+                    <label for="anggota">Jumlah Anggota Tim</label>
+                    <input type="text" id="anggota" name="anggota" size="10" />
+                </div>
+                <div class="form-group">
+                    <label for="prodi">Program Studi Asal</label>
+                    <select id="prodi" name="prodi">
+                        <option>Informatika</option>
+                        <option>Sistem Informasi</option>
+                        <option>Teknik Industri</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset class="form-section">
+                <h2>Pilihan Kompetisi</h2>
+                <div class="form-group">
+                    <label>Kategori Lomba</label>
+                    <div class="inline-options">
+                        <input type="radio" id="individu" name="kategori" value="Individu" />
+                        <label for="individu" class="inline">Individu</label>
+                        <input type="radio" id="kelompok" name="kategori" value="Tim" />
+                        <label for="kelompok" class="inline">Tim / Kelompok</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Bidang Lomba</label>
+                    <div class="checkbox-group">
+                        <p>
+                            <input type="checkbox" id="programming" name="bidang" value="Programming" />
+                            <label for="programming" class="inline">Programming</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="design" name="bidang" value="UI/UX Design" />
+                            <label for="design" class="inline">UI/UX Design</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="tulis" name="bidang" value="Karya Tulis" />
+                            <label for="tulis" class="inline">Karya Tulis</label>
+                        </p>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="form-section">
+                <h2>Data &amp; Berkas Karya</h2>
+                <div class="form-group">
+                    <label for="deskripsi">Deskripsi Singkat Karya</label>
+                    <textarea id="deskripsi" name="deskripsi" rows="6" cols="30"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="file">Unggah Berkas Proposal / Karya</label>
+                    <input type="file" id="file" name="file" />
+                </div>
+            </fieldset>
+
+            <div class="submit-row">
+                <input type="submit" value="Kirim Pendaftaran" />
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

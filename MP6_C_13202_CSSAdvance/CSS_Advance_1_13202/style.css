@@ -1,0 +1,83 @@
+body {
+    background-color: #93c8fd;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#wrapper {
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #292727;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #292727;
+}
+
+h1 {
+    text-align: center;
+    color: #93c8fd;
+    margin-bottom: 25px;
+}
+
+fieldset {
+    border: none;
+}
+
+#info label {
+    float: left;
+    width: 200px;
+    text-align: right;
+    margin-right: 15px;
+    font-weight: bold;
+    color: #93c8fd;
+}
+
+#info label.inline {
+    float: none;
+    width: auto;
+    text-align: left;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+input, select, textarea {
+    font-family: inherit;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#info p {
+    clear: both;
+    margin-bottom: 12px;
+}
+
+.checkbox-group {
+    display: inline-block;
+}
+
+input[type="file"] {
+    color: #ffffff; 
+}
+
+.submit-row {
+    margin-left: 215px;
+    margin-top: 20px;
+}
+
+.submit-row input[type="submit"] {
+    background-color: #4389ce;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-row input[type="submit"]:hover {
+    background-color: #a1d0ff;
+}

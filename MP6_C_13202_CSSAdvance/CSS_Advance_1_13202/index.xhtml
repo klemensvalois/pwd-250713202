@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Seminar</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Formulir Pendaftaran Seminar</h1>
+        
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <div id="info">
+                    <p>
+                        <label for="nama">Nama Peserta</label>
+                        <input type="text" id="nama" name="nama" size="30" />
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" size="30" /> 
+                    </p>
+                    <p>
+                        <label for="nim">NIM</label>
+                        <input type="text" id="nim" name="nim" size="30" />
+                    </p>
+                    <p>
+                        <label for="prodi">Program Studi</label>
+                        <select id="prodi" name="prodi">
+                            <option>Informatika</option>
+                            <option>Sistem Informasi</option>
+                            <option>Teknik Industri</option>
+                            <option>Manajemen</option>
+                            <option>Akuntansi</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Jenis Tiket</label>
+                        <input type="radio" id="reguler" name="tiket" value="Reguler" />
+                        <label for="reguler" class="inline">Reguler</label>
+                        <input type="radio" id="vip" name="tiket" value="VIP" />
+                        <label for="vip" class="inline">VIP</label>
+                        <input type="radio" id="online" name="tiket" value="Online" />
+                        <label for="online" class="inline">Online</label>
+                    </p>
+                    <p>
+                        <label>Topik Seminar</label>
+                        <span class="checkbox-group">
+                            <input type="checkbox" id="ai" name="topik" value="Artificial Intelligence" />
+                            <label for="ai" class="inline">Artificial Intelligence</label><br />
+                            <input type="checkbox" id="data" name="topik" value="Data Science" />
+                            <label for="data" class="inline">Data Science</label><br />
+                            <input type="checkbox" id="cyber" name="topik" value="Cyber Security" />
+                            <label for="cyber" class="inline">Cyber Security</label><br />
+                            <input type="checkbox" id="cloud" name="topik" value="Cloud Computing" />
+                            <label for="cloud" class="inline">Cloud Computing</label><br />
+                            <input type="checkbox" id="web" name="topik" value="Web Development" />
+                            <label for="web" class="inline">Web Development</label>
+                        </span>
+                    </p>
+                    <p>
+                        <label for="jam">Pilihan Jam</label>
+                        <select id="jam" name="jam">
+                            <option>08:00 - 10:00</option>
+                            <option>10:00 - 12:00</option>
+                            <option>13:00 - 15:00</option>
+                            <option>15:00 - 17:00</option>
+                            <option>19:00 - 21:00</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Cara Pembayaran</label>
+                        <input type="radio" id="qris" name="pembayaran" value="QRIS" />
+                        <label for="qris" class="inline">QRIS</label>
+                        <input type="radio" id="transfer" name="pembayaran" value="Transfer Bank" />
+                        <label for="transfer" class="inline">Transfer Bank</label>
+                    </p>
+                    <p>
+                        <label for="pertanyaan">Pertanyaan untuk Narasumber</label>
+                        <textarea id="pertanyaan" name="pertanyaan" rows="5" cols="30"></textarea>
+                    </p>
+                    <p>
+                        <label for="bukti">Bukti Pembayaran</label>
+                        <input type="file" id="bukti" name="bukti" accept="image/gif,image/jpeg,image/png" />
+                    </p>
+                    <p class="submit-row">
+                        <input type="submit" name="simpan" value="Simpan" />
+                    </p>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
