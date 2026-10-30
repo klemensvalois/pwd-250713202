@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Form Peminjaman Buku (XHTML)</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript">
+        var sInput;
+
+        sInput = prompt("Pilih Ruang: (B)aca, (D)iskusi, (K)omputer, (A)udio visual", "B");
+
+        switch(sInput){
+            case "B":
+                alert("Ruang Baca di lantai 1");
+                break;
+            case "D":
+                alert("Ruang Diskusi di lantai 2");
+                break;
+            case "K":
+                alert("Ruang Komputer di lantai 2");
+                break;
+            case "A":
+                alert("Ruang Audio Visual di lantai 3");
+                break;
+            default:
+                alert("Ruang tidak ditemukan");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Switch-Case: Ruang Perpustakaan</h1>
+    <p>Reload halaman untuk mencoba lagi</p>
+</body>
+
+</html>
