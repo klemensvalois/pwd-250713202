@@ -35,6 +35,7 @@ function fn_ValForm(){
             break;
         case "J":{
             sKategori = "Jurnal Ilmiah";
+            break;
         }
 
     }
